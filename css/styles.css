@@ -977,7 +977,7 @@ body {
   color: #8e8f99;
 }
 
-.modal-checkbox-desc {
+.modal-checkbox-desc-span {
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -1016,7 +1016,6 @@ body {
 }
 
 .modal-checkbox {
-  display: inline-flex;
   margin-right: 8px;
   box-sizing: border-box;
   width: 16px;
@@ -1026,7 +1025,6 @@ body {
 }
 
 .modal-custom-checkbox {
-  display: inline-flex;
   padding: 4px 3px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
