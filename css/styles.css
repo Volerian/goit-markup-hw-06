@@ -943,7 +943,7 @@ body {
 }
 
 .modal-div-label {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -978,6 +978,7 @@ body {
 }
 
 .modal-checkbox-desc {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
