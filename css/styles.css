@@ -943,7 +943,7 @@ body {
 }
 
 .modal-div-label {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
@@ -1018,6 +1018,7 @@ body {
 }
 
 .modal-custom-checkbox {
+  display: inline-flex;
   padding: 4px 3px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1025,6 +1026,12 @@ body {
   cursor: pointer;
   opacity: 0;
   fill: #f4f4fd;
+}
+
+.modal-checkbox-desc + .modal-checkbox:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #fff;
 }
 
 .modal-checkbox {
@@ -1036,12 +1043,6 @@ body {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
-}
-
-.modal-checkbox:checked + .modal-custom-checkbox {
-  opacity: 100;
-  background-color: #404bbf;
-  border: none;
 }
 
 .modal-checkbox:focus + .modal-custom-checkbox {
