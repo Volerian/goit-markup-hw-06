@@ -942,7 +942,7 @@ body {
   color: #8e8f99;
 }
 
-.modal-div-label {
+.modal-div-label-com {
   margin-bottom: 16px;
 }
 
@@ -990,6 +990,12 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .modal-checkbox:checked + .modal-custom-desc {
@@ -1048,15 +1054,6 @@ body {
 
 .modal-checkbox:focus + .modal-custom-checkbox {
   outline: 2px solid rgba(0, 0, 0, 0.88);
-}
-
-.modal-checkbox-desc {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 
 .modal-submit-btn {
