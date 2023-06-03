@@ -1016,6 +1016,7 @@ body {
 }
 
 .modal-checkbox {
+  display: inline-flex;
   margin-right: 8px;
   box-sizing: border-box;
   width: 16px;
