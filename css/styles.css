@@ -644,6 +644,7 @@ body {
 
 .sub-send-icon {
   margin-left: 16px;
+  margin-top: 6px;
 }
 
 /* Portfolio */
@@ -966,6 +967,8 @@ body {
   border-color: #4d5ae5;
 }
 
+/* ------------checkbox-------------- */
+
 .modal-div-label-checkbox {
   margin-bottom: 24px;
 }
@@ -1001,7 +1004,7 @@ body {
 .modal-checkbox:checked + .modal-form-checkbox-wrapper > .modal-checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .modal-checkbox {
@@ -1025,31 +1028,26 @@ body {
 .modal-custom-checkbox {
   padding: 4px 3px;
   margin-right: 8px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
   cursor: pointer;
-  opacity: 0;
+  opacity: 100;
   fill: #f4f4fd;
 }
 
-/* .modal-checkbox-desc + .modal-checkbox:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #fff;
-} */
-
-/* .modal-checkbox {
-  appearance: none;
-  position: absolute;
-} */
+.modal-custom-checkbox-icon {
+  background: #f4f4fd;
+  opacity: 100;
+}
 
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
 }
 
 .modal-checkbox:focus + .modal-checkbox-span {
   outline: 2px solid rgba(0, 0, 0, 0.88);
 }
+
+/* -------submit button------- */
 
 .modal-submit-btn {
   display: block;
@@ -1139,6 +1137,8 @@ body {
 .modal-submit-btn:is(:hover, :focus) {
   background: #404bbf;
 } */
+
+/* --------------COMENTS------------------ */
 
 /* пример смены цвета при наведении на елемент
 .header-link:hover{
