@@ -984,7 +984,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  max-width: 16px;
+  margin-right: 8px;
+  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -1026,16 +1027,11 @@ body {
 }
 
 .modal-custom-checkbox {
-  padding: 4px 3px;
-  margin-right: 8px;
-  cursor: pointer;
-  opacity: 100;
   fill: #f4f4fd;
 }
 
 .modal-custom-checkbox-icon {
   background: #f4f4fd;
-  opacity: 100;
 }
 
 .visually-hidden {
